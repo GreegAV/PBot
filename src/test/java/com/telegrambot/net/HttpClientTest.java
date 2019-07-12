@@ -9,7 +9,7 @@ public class HttpClientTest {
     public void POST() {
         HttpClient.POST(
                 "https://api.telegram.org/bot792816294:AAE9A2Trrnp6Mm8qFqRkGmYqdNXX-xprrB0/sendMessage",
-                new BotMessage(221816696, "Hello")
+                new BotMessage(221816696, "Hi there again, Bot!")
         );
     }
 }

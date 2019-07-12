@@ -1,23 +1,23 @@
 package com.telegrambot.core;
 
 public class BotMessage {
-    private final int cat_id;
+    private final int chat_id;
     private final String text;
 
-    public BotMessage(int cat_id, String text) {
-        this.cat_id = cat_id;
+    public BotMessage(int chat_id, String text) {
+        this.chat_id = chat_id;
         this.text = text;
     }
 
-    public int getCat_id() {
-        return cat_id;
+    public int getChat_id() {
+        return chat_id;
     }
 
     public String getText() {
         return text;
     }
 
-    public void send(){
+    public void send() {
 
     }
 }
